@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'andriod';
+    src: url(fonts/F:\Codes\fonts\andriod\android_7.ttf);
+}
+@font-face {
+    font-family: 'gillroy';
+    src: url(fonts/F:\Codes\fonts\gilroy\Gilroy-Heavy.ttf);
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(fonts/F:\Codes\fonts\montserrat\static\Montserrat-SemiBold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(202, 53, 53);
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    color: white;
+    
+}
+#logoo{
+    font-size: 30px;
+    font-weight: 900;
+    font-family:  'andriod', sans-serif;
+}
+#table{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-family: 'montserrat', sans-serif;
+}
+#table h3{
+    font-size: 16px;
+    font-weight: 100;
+}
+#box{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(43, 39, 39);
+    position: relative;
+    bottom: 5px;
+    padding-top: 5px;
+    padding-left: 23px;
+}
+#main{
+    height: 500px;
+    width: 60%;
+    
+    color: white;
+    padding-left: 50px;
+}
+#main h1{
+    font-family: 'gillroy', sans-serif;
+    font-size: 140px;
+}
+#extra{
+    position: absolute;
+    color: white;
+    margin-left: 800px;
+    top: 400px;
+    right: 30px;
+    height: 368px;
+    padding: 20px;
+    border-left: solid 3px white;
+}
